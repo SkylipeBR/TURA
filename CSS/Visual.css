@@ -88,10 +88,6 @@ section .banner-section h1
 
 }
 
-section .banner-section h1:hover
-{
-
-}
 
 section #p-left
 {
@@ -131,6 +127,18 @@ section .redes-socias-section .sroll-section p
     border-bottom: 2px solid #f9f9f9;
 }
 
+#section-segundario .redes-socias-section .sroll-section #barra-scroll-2
+{
+    position: relative;
+    top: -10px;
+    left: -45px;
+}
+
+#section-segundario .redes-socias-section .sroll-section #barra-scroll
+{
+    top: 10px;
+}
+
 .redes-socias-section-logos a
 {
     color: #e7e7e7;
@@ -142,8 +150,9 @@ section .redes-socias-section .sroll-section p
 #section-segundario
 {
 
-    height: 120vh;
+    height: 130vh;
     background-image: linear-gradient( #111,#333);
+
 }
 
 .boxes
@@ -151,6 +160,7 @@ section .redes-socias-section .sroll-section p
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px 100px;
 }
 .box
 {
@@ -158,21 +168,93 @@ section .redes-socias-section .sroll-section p
     text-align: center;
     width: 500px;
     height: 400px;
-    transition: 0.8s;
+    transition: 0.5s;
     border-radius: 10px;
+    border: 1px solid #111;
+    margin: 0px 10px;
 
 }
 
-.box:hover
+.box:hover 
 {
+    border: none;
     box-shadow: 1px 4px 50px 1px rgb(17, 17, 17);
+    
 }
 
 .box:active
 {
-    
+    border: 1px solid #fff;
+}
+
+/* #section-segundario:hover .text-section-segundario h1
+{
+    animation: sepnome 1s normal infinite;
+} */
+
+
+@keyframes sepnome
+{
+    0%
+    {
+        letter-spacing: 1px;
+    }
+    100%
+    {
+        letter-spacing: 70px;
+    }
+}
+
+.box p
+{
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 
+.text-section-segundario
+{
+    position: relative;
+    top: -100px;
+    text-align:center;
+    color: #fff;
+}
+
+.text-section-segundario h1
+{
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+.text-section-segundario p
+{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -20px;
+}
+
+.text-section-segundario a
+{
+    position: relative;
+    top: 30px;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(29, 29, 29);
+    box-shadow: 2px 5px 10px 2px rgb(15, 15, 15);
+}
+
+
+.box-estrelas a
+{
+    text-decoration: none;
+    font-size: 1.5em;
+    border: none;
+    color: #e9d202;
+}
 
 
