@@ -333,25 +333,39 @@ section .redes-socias-section .sroll-section p
 
 }
 
+
 .box-contact label
 {
     position: relative;
     top: -30px;
     transition: 0.6s;
     pointer-events: none;
+    z-index: 1000;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
 }
+
+.box-contact input:required:invalid + label:before{
+    content: '*';
+  }
 
 .box-contact input:focus + label
 {
+    content: '';
     position: relative;
     top: -70px;
+
 }
 
-.box-contact input:focus + label
-{
-    position: relative;
-    top: -70px;
+.label-float input:focus + label,
+.label-float input:not(:placeholder-shown) + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #3951b2;
 }
+
+
 
 
 .box-contact input
@@ -364,6 +378,9 @@ section .redes-socias-section .sroll-section p
     border-bottom: 2px solid #DDDDDD;
     padding: 0px 20px;
     color: rgb(10, 10, 10);
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
 }
 
 .box-contact .btn-contact
@@ -454,6 +471,11 @@ section .redes-socias-section
     align-items: center;
     height: 30vh;
     padding: 0px 20px;
+}
+
+.section-contact
+{
+    height: 300vh;
 }
 
 @media (max-width: 460px)
