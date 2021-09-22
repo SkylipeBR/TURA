@@ -538,7 +538,7 @@ section .redes-socias-section
     justify-content: space-between;
     align-items: center;
     height: 30vh;
-    padding: 0px 0px;
+    padding: 0px 10px;
 }
 
 #section-segundario .redes-socias-section .sroll-section #barra-scroll-2
