@@ -56,6 +56,11 @@ nav
     text-decoration: none;
 }
 
+#nav-list li a:hover
+{
+    color: #DDDDDD;
+}
+
 section
 {
     background-image: linear-gradient( #333, #111);
@@ -216,7 +221,6 @@ section .redes-socias-section .sroll-section p
 .text-section-segundario
 {
     position: relative;
-    top: -100px;
     text-align:center;
     color: #fff;
 }
@@ -257,4 +261,178 @@ section .redes-socias-section .sroll-section p
     color: #e9d202;
 }
 
+.section-contact
+{
+    height: 210vh;
+}
 
+.contact
+{
+    padding: 100px;
+}
+
+.flex-contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-contact div
+{
+    margin-left: 50px;
+}
+
+.info-contact
+{
+    text-align: center;
+    color: #DDDDDD;
+    line-height: 50px;
+}
+
+.info-contact p
+{
+    line-height: 30px;
+}
+
+.info-contact h1, h2
+{
+    color: #fff;
+}
+
+.info-contact h1
+{
+    font-size: 5em;
+    text-transform: uppercase;
+}
+
+
+.box-contact
+{
+    width: 600px;
+    padding: 50px 40px;
+    text-align: center;
+    color: #DDDDDD;
+
+    box-shadow: 5px 5px 20px 10px #111;
+}
+
+
+.box-contact h1
+{
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.box-contact input, label
+{
+    display: block;
+    text-align: left;
+    width: 100%;
+
+}
+
+.box-contact label
+{
+    position: relative;
+    top: -30px;
+    transition: 0.6s;
+    pointer-events: none;
+}
+
+.box-contact input:focus + label
+{
+    position: relative;
+    top: -70px;
+}
+
+
+.box-contact input
+{
+    border: none;
+    outline: none;
+    background: none;
+    height: 60px;
+    font-size: 20px;
+    border-bottom: 2px solid #DDDDDD;
+    padding: 0px 20px;
+    color: rgb(10, 10, 10);
+}
+
+.box-contact .btn-contact
+{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 30px 50px;
+    color: #DDDDDD;
+    text-transform: uppercase;
+    text-decoration: none;
+    box-shadow: 2px 5px 10px 5px #111;
+    transition: 0.2s;
+}
+
+.box-contact .btn-contact:hover
+{
+    border: 4px solid;
+    border-color: #111 #222;
+    box-shadow: none;
+}
+
+
+
+@media (max-width: 1200px)
+{
+    .boxes
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+#section-segundario
+{
+    height: 250vh;
+    background-image: linear-gradient( #111,#333);
+}
+
+.flex-contact
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.box-contact
+{
+    width: 400px;
+    padding: 50px 40px;
+    text-align: center;
+    color: #DDDDDD;
+
+    box-shadow: 5px 5px 20px 10px #111;
+}
+
+.flex-contact div
+{
+    margin-left: 0px;
+}
+}
+
+@media (max-width: 599px)
+{
+    .box
+{
+    color: #fff;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    transition: 0.5s;
+    border-radius: 10px;
+    border: 1px solid #111;
+    margin: 5px 10px;
+}
+}
