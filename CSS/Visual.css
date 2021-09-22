@@ -435,4 +435,79 @@ section .redes-socias-section .sroll-section p
     border: 1px solid #111;
     margin: 5px 10px;
 }
+
+@media (max-width: 460px)
+{
+
+
+    section .banner-section p
+{
+    text-transform: uppercase;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+section .banner-section h1
+{
+    text-transform: uppercase;
+    font-size: 7em;
+    line-height: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+
+}
+
+    .box
+    {
+        color: #fff;
+        text-align: center;
+        width: 300px;
+        height: 400px;
+        transition: 0.5s;
+        border-radius: 10px;
+        border: 1px solid #111;
+        margin: 5px 10px;
+    }
+
+    .text-section-segundario h1
+{
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.info-contact h1
+{
+    font-size: 3em;
+    text-transform: uppercase;
+    margin-top: 300px;
+}
+
+.section-contact
+{
+    height: 300vh;
+}
+
+.box-contact
+{
+    width: 300px;
+    padding: 50px 40px;
+    text-align: center;
+    color: #DDDDDD;
+
+    box-shadow: 5px 5px 20px 10px #111;
+}
+
+.box-contact input
+{
+    border: none;
+    outline: none;
+    background: none;
+    height: 60px;
+    font-size: 18px;
+    border-bottom: 2px solid #DDDDDD;
+    padding: 0px 20px;
+    color: rgb(10, 10, 10);
+}
+
+
 }
