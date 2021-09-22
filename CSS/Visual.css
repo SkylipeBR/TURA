@@ -347,6 +347,12 @@ section .redes-socias-section .sroll-section p
     top: -70px;
 }
 
+.box-contact input:focus + label
+{
+    position: relative;
+    top: -70px;
+}
+
 
 .box-contact input
 {
@@ -394,6 +400,11 @@ section .redes-socias-section .sroll-section p
     margin: 0px 100px;
 }
 
+.info-contact h1
+{
+    margin-top: 300px;
+}
+
 #section-segundario
 {
     height: 250vh;
@@ -434,6 +445,15 @@ section .redes-socias-section .sroll-section p
     border-radius: 10px;
     border: 1px solid #111;
     margin: 5px 10px;
+}
+
+section .redes-socias-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    padding: 0px 20px;
 }
 
 @media (max-width: 460px)
@@ -491,7 +511,7 @@ section .banner-section h1
 
 .box-contact
 {
-    width: 350px;
+    width: 330px;
     padding: 50px 40px;
     text-align: center;
     color: #DDDDDD;
@@ -512,5 +532,31 @@ section .banner-section h1
     color: rgb(10, 10, 10);
 }
 
+section .redes-socias-section
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    padding: 0px 0px;
+}
 
+#section-segundario .redes-socias-section .sroll-section #barra-scroll-2
+{
+    position: relative;
+    top: -20px;
+    left: -45px;
+}
+
+#section-segundario .redes-socias-section .sroll-section span
+{
+    position: relative;
+    top: -10px;
+
+}
+
+#section-segundario .redes-socias-section .sroll-section #barra-scroll
+{
+    top: 0px;
+}
 }
