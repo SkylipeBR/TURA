@@ -461,7 +461,7 @@ section .banner-section h1
     {
         color: #fff;
         text-align: center;
-        width: 300px;
+        width: 350px;
         height: 400px;
         transition: 0.5s;
         border-radius: 10px;
@@ -484,12 +484,12 @@ section .banner-section h1
 
 .section-contact
 {
-    height: 300vh;
+    height: 250vh;
 }
 
 .box-contact
 {
-    width: 300px;
+    width: 350px;
     padding: 50px 40px;
     text-align: center;
     color: #DDDDDD;
