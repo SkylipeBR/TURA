@@ -433,6 +433,11 @@ section .redes-socias-section .sroll-section p
     background-image: linear-gradient( #111,#333);
 }
 
+.section-contact
+{
+    height: 250vh;
+}
+
 .flex-contact
 {
     display: flex;
