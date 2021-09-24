@@ -485,7 +485,7 @@ section .redes-socias-section
 
 .section-contact
 {
-    height: 300vh;
+    height: 200vh;
 }
 
 @media (max-width: 460px)
